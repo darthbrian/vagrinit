@@ -1,4 +1,9 @@
+#!/usr/bin/env python3
 # This module generates a vagrant init file based on arguments passed in to the module.
+
+
+import sys
+import argparse
 
 def WrVagrInit(count , machname ):
     """Create a Vagrantinit files based on arguments"""
@@ -24,8 +29,6 @@ def WrVagrInit(count , machname ):
 
  
 def main():
-    import sys
-    import argparse
     parser = argparse.ArgumentParser(description = "Create a Vagrant initialization file based on user arguments.")
     parser.add_argument("machnum", help = "The number of virtual machines you want to spin up", type=int)
     parser.add_argument("machname", help = "The type of virtual machine you want to create")
