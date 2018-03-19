@@ -1,0 +1,76 @@
+{
+    "subnet": "10.0.0.",
+    "boxes" :
+        [
+            {
+                "name" : "fred",
+                "machtype": "ubuntu/trusty64",
+                "ip": 10, 
+                "ram": 512,
+                "disk": 20
+            },
+            {
+                "name" : "wilma",
+                "machtype": "debian/jessie64",
+                "ip": 12,
+                "ram": 1024,
+                "disk": 20
+            },
+            {
+                "name" : "barney",
+                "machtype": "bento/centos-7.2",
+                "ip": 13,
+                "ram": 1024,
+                "disk": 20
+            },
+            {
+                "name" : "betty",
+                "machtype": "ubuntu/trusty64",
+                "ip": 14,
+                "ram": 512,
+                "disk": 20
+            },
+            {
+                "name" : "pebbles",
+                "machtype": "ubuntu/trusty64",
+                "ip": 15,
+                "ram": 512,
+                "disk": 20
+            },
+            {
+                "name" : "bammbamm",
+                "machtype": "centos/7",
+                "ip": 16,
+                "ram": 1024,
+                "disk": 20
+            },
+            {
+                "name" : "dino",
+                "machtype": "bento/centos-6.7",
+                "ip": 17,
+                "ram": 512,
+                "disk": 20
+            },
+            {
+                "name" : "hoppy",
+                "machtype": "iamseth/rhel-7.3",
+                "ip": 18,
+                "ram": 512,
+                "disk": 20
+            },
+            {
+                "name" : "misterSlate",
+                "machtype": "iamseth/rhel-7.3",
+                "ip": 19,
+                "ram": 1024,
+                "disk": 20
+            },
+            {
+                "name" : "gazoo",
+                "machtype": "debian/jessie64",
+                "ip": 20,
+                "ram": 512,
+                "disk": 20
+            }
+        ]
+}
