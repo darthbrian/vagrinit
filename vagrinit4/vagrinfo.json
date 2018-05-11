@@ -11,14 +11,14 @@
             },
             {
                 "name" : "wilma",
-                "machtype": "debian/jessie64",
+                "machtype": "ubuntu/trusty64",
                 "ip": 12,
                 "ram": 1024,
                 "disk": 20
             },
             {
                 "name" : "barney",
-                "machtype": "bento/centos-7.2",
+                "machtype": "ubuntu/trusty64",
                 "ip": 13,
                 "ram": 1024,
                 "disk": 20
@@ -39,35 +39,35 @@
             },
             {
                 "name" : "bammbamm",
-                "machtype": "centos/7",
+                "machtype": "ubuntu/trusty64",
                 "ip": 16,
                 "ram": 1024,
                 "disk": 20
             },
             {
                 "name" : "dino",
-                "machtype": "bento/centos-6.7",
+                "machtype": "ubuntu/trusty64",
                 "ip": 17,
                 "ram": 512,
                 "disk": 20
             },
             {
                 "name" : "hoppy",
-                "machtype": "iamseth/rhel-7.3",
+                "machtype": "ubuntu/trusty64",
                 "ip": 18,
                 "ram": 512,
                 "disk": 20
             },
             {
                 "name" : "misterSlate",
-                "machtype": "iamseth/rhel-7.3",
+                "machtype": "ubuntu/trusty64",
                 "ip": 19,
                 "ram": 1024,
                 "disk": 20
             },
             {
                 "name" : "gazoo",
-                "machtype": "debian/jessie64",
+                "machtype": "ubuntu/trusty64",
                 "ip": 20,
                 "ram": 512,
                 "disk": 20

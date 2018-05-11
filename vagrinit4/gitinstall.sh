@@ -8,7 +8,7 @@ then
     echo "Detected Ubuntu or Debian Installation. Using apt-get..."
     if ! [ -x "$(command -v git)" ];
     then
-        sudo apt-get update >/dev/null 2>%1
+        sudo apt-get update >/dev/null 2>&1
         sudo apt-get install -y git-all >/dev/null 2>&1
     else
         echo "Detected git is already installed. Skipping installation..."
